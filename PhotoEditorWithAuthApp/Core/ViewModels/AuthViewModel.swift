@@ -9,10 +9,6 @@ import Combine
 
 
 
-protocol ViewModelable {
-    
-}
-
 class AuthViewModel: ObservableObject, ViewModelable {
     
     @Published var email: String = ""
