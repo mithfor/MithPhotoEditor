@@ -11,14 +11,4 @@ class AuthViewModel: ObservableObject {
     @Published var isAithentificated: Bool = false
 }
 
-//import XCTest
-//@testable import PhotoEditorWithAuthApp
-//
-//class AuthViewModelTests: XCTestCase {
-//    func test_isAuthenificated_shouldFail() throws {
-//        
-//        let sut = AuthViewModel()
-//        
-//        XCTAssertFalse(sut.isAithentificated)
-//    }
-//}
+
