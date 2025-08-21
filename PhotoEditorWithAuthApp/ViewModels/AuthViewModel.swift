@@ -21,7 +21,6 @@ class AuthViewModel: ObservableObject, ViewModelable {
     @Published var isAuthentificated: Bool = false
     @Published var errorMessage: String?
     @Published var isLoading: Bool = false
-    
 }
 
 
